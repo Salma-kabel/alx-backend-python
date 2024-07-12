@@ -16,7 +16,7 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     for i in range(n):
         delay.append(task_wait_random(max_delay))
 
-    new_list: List[float] = []
+    list2: List[float] = []
 
     for dely in asyncio.as_completed(delays):
         done: float = await dely
