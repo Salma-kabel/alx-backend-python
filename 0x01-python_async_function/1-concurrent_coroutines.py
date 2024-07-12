@@ -9,6 +9,7 @@ import asyncio
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-time = [wait_random(max_delay) for i in range(n)]
+async def wait_n(n: int, max_delay: int) -> list[float]:
+    time = [wait_random(max_delay) for i in range(n)]
     results = await asyncio.gather(*tasks)
     return sorted(results)
