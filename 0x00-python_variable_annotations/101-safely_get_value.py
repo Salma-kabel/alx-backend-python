@@ -3,7 +3,7 @@
 add type annotations to the function"""
 
 
-from typing import Mapping, Any, Union, TypeVar
+from typing import Mapping, Any, Union
 
 
 T = TypeVar('T')
