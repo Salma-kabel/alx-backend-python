@@ -5,7 +5,7 @@
 from typing import List, Tuple
 
 
-def zoom_array(lst: List, factor: int = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """validate the following piece of code
     and apply any necessary changes"""
     zoomed_in: List = [
