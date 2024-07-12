@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """coroutine called async_comprehension that takes no arguments"""
 
-from 0-async_generator import async_generator
+from async_generator import async_generator
 from typing import List
 from random import uniform
 import asyncio
